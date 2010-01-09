@@ -1,0 +1,210 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{FF5457E9-75E1-4653-8573-B8503A8DAC59}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Taste</RootNamespace>
+    <AssemblyName>taste.net</AssemblyName>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Iesi.Collections, Version=1.0.1.0, Culture=neutral, PublicKeyToken=aa95f207798dfdb4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\lib\Iesi.Collections.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\lib\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Correlation\ItemCorrelation.cs" />
+    <Compile Include="Correlation\PreferenceInferrer.cs" />
+    <Compile Include="Correlation\UserCorrelation.cs" />
+    <Compile Include="Eval\IRStatistics.cs" />
+    <Compile Include="Eval\RecommenderBuilder.cs" />
+    <Compile Include="Eval\RecommenderEvaluator.cs" />
+    <Compile Include="Eval\RecommenderIRStatsEvaluator.cs" />
+    <Compile Include="Common\CompactRunningAverage.cs" />
+    <Compile Include="Common\CompactRunningAverageAndStdDev.cs" />
+    <Compile Include="Common\EmptyEnumerable.cs" />
+    <Compile Include="Common\EmptyIterator.cs" />
+    <Compile Include="Common\FastMap.cs" />
+    <Compile Include="Common\FullRunningAverage.cs" />
+    <Compile Include="Common\FullRunningAverageAndStdDev.cs" />
+    <Compile Include="Common\Pair.cs" />
+    <Content Include="Common\IteratorIterable.cs" />
+    <Compile Include="Common\EnumeratorUtils.cs" />
+    <Compile Include="Common\RandomUtils.cs" />
+    <Compile Include="Common\RunningAverage.cs" />
+    <Compile Include="Common\RunningAverageAndStdDev.cs" />
+    <Compile Include="Common\SoftCache.cs" />
+    <Compile Include="Common\WeightedRunningAverage.cs" />
+    <Compile Include="Correlation\AveragingPreferenceInferrer.cs" />
+    <Compile Include="Correlation\GenericItemCorrelation.cs" />
+    <Compile Include="Correlation\PearsonCorrelation.cs" />
+    <Compile Include="Correlation\SpearmanCorrelation.cs" />
+    <Compile Include="Eval\AbstractDifferenceRecommenderEvaluator.cs" />
+    <Compile Include="Eval\AverageAbsoluteDifferenceRecommenderEvaluator.cs" />
+    <Compile Include="Eval\GenericRecommenderIRStatsEvaluator.cs" />
+    <Compile Include="Eval\IRStatisticsImpl.cs" />
+    <Compile Include="Eval\RMSRecommenderEvaluator.cs" />
+    <Compile Include="Model\ado\AbstractADODataModel.cs" />
+    <Compile Include="Model\ado\GenericADODataModel.cs" />
+    <Compile Include="Model\ByItemPreferenceComparer.cs" />
+    <Compile Include="Model\ByUserPreferenceComparator.cs" />
+    <Compile Include="Model\ByValuePreferenceComparator.cs" />
+    <Compile Include="Model\DetailedPreference.cs" />
+    <Compile Include="Model\file\FileDataModel.cs" />
+    <Compile Include="Model\GenericDataModel.cs" />
+    <Compile Include="Model\GenericItem.cs" />
+    <Compile Include="Model\GenericPreference.cs" />
+    <Compile Include="Model\GenericUser.cs" />
+    <Compile Include="Model\DataModel.cs" />
+    <Compile Include="Model\Item.cs" />
+    <Compile Include="Model\ADODataModel.cs" />
+    <Compile Include="Model\Preference.cs" />
+    <Compile Include="Model\User.cs" />
+    <Compile Include="Neighborhood\UserNeighborhood.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Common\Refreshable.cs" />
+    <Compile Include="Common\TasteException.cs" />
+    <Compile Include="Recommender\ClusteringRecommender.cs" />
+    <Compile Include="Recommender\ItemBasedRecommender.cs" />
+    <Compile Include="Recommender\RecommendedItem.cs" />
+    <Compile Include="Recommender\Recommender.cs" />
+    <Compile Include="Recommender\Rescorer.cs" />
+    <Compile Include="Recommender\slopeone\DiffStorage.cs" />
+    <Compile Include="Recommender\UserBasedRecommender.cs" />
+    <Compile Include="Transforms\CorrelationTransform.cs" />
+    <Compile Include="Transforms\PreferenceTransform2.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Common\MultiIterator.cs" />
+    <Compile Include="Common\Constants.cs" />
+    <Compile Include="Common\IllegalStateException.cs" />
+    <Compile Include="Common\LRUCacheMap.cs" />
+    <Compile Include="Common\NoSuchElementException.cs" />
+    <Compile Include="Common\AtomicInteger.cs" />
+    <Compile Include="Common\AtomicReference.cs" />
+    <Compile Include="Common\Properties.cs" />
+    <Compile Include="Common\ReentrantLock.cs" />
+    <Compile Include="Common\SafeDictionary.cs" />
+    <Compile Include="Model\ado\OleDBDataModel.cs" />
+    <Compile Include="Neighborhood\AbstractUserNeighborhood.cs" />
+    <Compile Include="Neighborhood\NearestNUserNeighborhood.cs" />
+    <Compile Include="Neighborhood\ThresholdUserNeighborhood.cs" />
+    <Content Include="Model\netflix\NetflixMovie.cs" />
+    <Content Include="Model\netflix\NetflixDataModel.cs" />
+    <Compile Include="Recommender\AbstractRecommender.cs" />
+    <Compile Include="Recommender\ByRescoreComparator.cs" />
+    <Compile Include="Recommender\CachingRecommender.cs" />
+    <Compile Include="Recommender\ClusterSimilarity.cs" />
+    <Compile Include="Recommender\FarthestNeighborClusterSimilarity.cs" />
+    <Compile Include="Recommender\GenericItemBasedRecommender.cs" />
+    <Compile Include="Recommender\GenericRecommendedItem.cs" />
+    <Compile Include="Recommender\GenericUserBasedRecommender.cs" />
+    <Compile Include="Recommender\ItemAverageRecommender.cs" />
+    <Compile Include="Recommender\ItemUserAverageRecommender.cs" />
+    <Compile Include="Recommender\NearestNeighborClusterSimilarity.cs" />
+    <Compile Include="Recommender\NullRescorer.cs" />
+    <Compile Include="Recommender\slopeone\InvertedRunningAverageAndStdDev.cs" />
+    <Compile Include="Recommender\slopeone\MemoryDiffStorage.cs" />
+    <Compile Include="Recommender\slopeone\SlopeOneRecommender.cs" />
+    <Compile Include="Recommender\slopeone\OleDBDiffStorage.cs" />
+    <Compile Include="Recommender\TopItems.cs" />
+    <Compile Include="Recommender\TreeClusteringRecommender.cs" />
+    <Compile Include="Recommender\TreeClusteringRecommender2.cs" />
+    <Compile Include="Recommender\slopeone\AbstractADODiffStorage.cs" />
+    <Compile Include="Recommender\slopeone\InvertedRunningAverage.cs" />
+    <Compile Include="Transforms\CaseAmplification.cs" />
+    <Compile Include="Transforms\Counters.cs" />
+    <Compile Include="Transforms\InverseUserFrequency.cs" />
+    <Compile Include="Transforms\ZScore.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Model\netflix\secret\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

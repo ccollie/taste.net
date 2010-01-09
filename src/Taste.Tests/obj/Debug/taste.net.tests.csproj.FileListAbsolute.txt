@@ -1,0 +1,12 @@
+C:\Users\Dev\Documents\Dev\Projects\DotNet\taste.net\taste.net.tests\bin\Debug\taste.net.tests.dll
+C:\Users\Dev\Documents\Dev\Projects\DotNet\taste.net\taste.net.tests\bin\Debug\taste.net.tests.pdb
+C:\Users\Dev\Documents\Dev\Projects\DotNet\taste.net\taste.net.tests\bin\Debug\taste.net.dll
+C:\Users\Dev\Documents\Dev\Projects\DotNet\taste.net\taste.net.tests\bin\Debug\Iesi.Collections.dll
+C:\Users\Dev\Documents\Dev\Projects\DotNet\taste.net\taste.net.tests\bin\Debug\log4net.xml
+C:\Users\Dev\Documents\Dev\Projects\DotNet\taste.net\taste.net.tests\bin\Debug\Retlang.pdb
+C:\Users\Dev\Documents\Dev\Projects\DotNet\taste.net\taste.net.tests\bin\Debug\Retlang.xml
+C:\Users\Dev\Documents\Dev\Projects\DotNet\taste.net\taste.net.tests\bin\Debug\taste.net.pdb
+C:\Users\Dev\Documents\Dev\Projects\DotNet\taste.net\taste.net.tests\bin\Debug\nunit.framework.xml
+C:\Users\Dev\Documents\Dev\Projects\DotNet\taste.net\taste.net.tests\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Dev\Documents\Dev\Projects\DotNet\taste.net\taste.net.tests\obj\Debug\taste.net.tests.dll
+C:\Users\Dev\Documents\Dev\Projects\DotNet\taste.net\taste.net.tests\obj\Debug\taste.net.tests.pdb

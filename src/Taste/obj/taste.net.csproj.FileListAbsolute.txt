@@ -1,0 +1,7 @@
+C:\Documents and Settings\Ben\My Documents\clayton\Projects\taste.net\taste.net\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Ben\My Documents\clayton\Projects\taste.net\taste.net\obj\Debug\taste.net.dll
+C:\Documents and Settings\Ben\My Documents\clayton\Projects\taste.net\taste.net\obj\Debug\taste.net.pdb
+C:\Documents and Settings\Ben\My Documents\clayton\Projects\taste.net\taste.net\bin\Debug\taste.net.dll
+C:\Documents and Settings\Ben\My Documents\clayton\Projects\taste.net\taste.net\bin\Debug\taste.net.pdb
+C:\Documents and Settings\Ben\My Documents\clayton\Projects\taste.net\taste.net\bin\Debug\log4net.dll
+C:\Documents and Settings\Ben\My Documents\clayton\Projects\taste.net\taste.net\bin\Debug\log4net.xml

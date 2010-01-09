@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VisualState xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ShowCheckBoxes="false">
+  <TopNode>[0-1008]Taste.Tests.LRUCacheMapTest.TestKeys</TopNode>
+  <SelectedNode>[0-1093]Taste.Tests.Recommender.GenericUserBasedRecommenderTest.TestEstimatePref</SelectedNode>
+  <ExcludeCategories>false</ExcludeCategories>
+  <Nodes>
+    <Node UniqueName="[0-1110]C:\Users\Dev\Documents\Dev\Projects\DotNet\taste.net\src\Taste.Tests\bin\Debug\Taste.net.Tests.dll" Expanded="true" />
+    <Node UniqueName="[0-1111]Taste" Expanded="true" />
+    <Node UniqueName="[0-1112]Taste.Tests" Expanded="true" />
+    <Node UniqueName="[0-1119]Taste.Tests.Common" Expanded="true" />
+    <Node UniqueName="[0-1099]Taste.Tests.Eval.RMSRecommenderEvaluatorTest" Expanded="true" />
+    <Node UniqueName="[0-1040]Taste.Tests.LoadTest" Expanded="true" />
+    <Node UniqueName="[0-1001]Taste.Tests.LRUCacheMapTest" Expanded="true" />
+    <Node UniqueName="[0-1115]Taste.Tests.Neighborhood" Expanded="true" />
+    <Node UniqueName="[0-1113]Taste.Tests.Recommender" Expanded="true" />
+    <Node UniqueName="[0-1026]Taste.Tests.Recommender.GenericItemBasedRecommenderTest" Expanded="true" />
+    <Node UniqueName="[0-1089]Taste.Tests.Recommender.GenericUserBasedRecommenderTest" Expanded="true" />
+    <Node UniqueName="[0-1118]Taste.Tests.Recommender.slopeone" Expanded="true" />
+    <Node UniqueName="[0-1114]Taste.Tests.Transforms" Expanded="true" />
+  </Nodes>
+</VisualState>

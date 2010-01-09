@@ -1,0 +1,6 @@
+C:\Users\Dev\Documents\Dev\Projects\DotNet\taste.net\taste.net\bin\Debug\taste.net.dll
+C:\Users\Dev\Documents\Dev\Projects\DotNet\taste.net\taste.net\bin\Debug\taste.net.pdb
+C:\Users\Dev\Documents\Dev\Projects\DotNet\taste.net\taste.net\bin\Debug\log4net.xml
+C:\Users\Dev\Documents\Dev\Projects\DotNet\taste.net\taste.net\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Dev\Documents\Dev\Projects\DotNet\taste.net\taste.net\obj\Debug\taste.net.dll
+C:\Users\Dev\Documents\Dev\Projects\DotNet\taste.net\taste.net\obj\Debug\taste.net.pdb

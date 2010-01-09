@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Taste", "src\Taste\Taste.csproj", "{FF5457E9-75E1-4653-8573-B8503A8DAC59}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Taste.Tests", "src\Taste.Tests\Taste.Tests.csproj", "{E682580D-32FC-4BD0-81AB-AC445A42C5CB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "lib", "lib", "{18259E9D-A3A9-4F25-809B-1BC962E28B7D}"
+	ProjectSection(SolutionItems) = preProject
+		lib\Iesi.Collections.dll = lib\Iesi.Collections.dll
+		lib\Iesi.Collections.license.txt = lib\Iesi.Collections.license.txt
+		lib\log4net.dll = lib\log4net.dll
+		lib\log4net.license.txt = lib\log4net.license.txt
+		lib\log4net.xml = lib\log4net.xml
+		lib\nunit.core.dll = lib\nunit.core.dll
+		lib\nunit.framework.dll = lib\nunit.framework.dll
+		lib\nunit.framework.license.txt = lib\nunit.framework.license.txt
+		lib\nunit.framework.xml = lib\nunit.framework.xml
+		lib\Retlang.dll = lib\Retlang.dll
+		lib\Retlang.xml = lib\Retlang.xml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FF5457E9-75E1-4653-8573-B8503A8DAC59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF5457E9-75E1-4653-8573-B8503A8DAC59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF5457E9-75E1-4653-8573-B8503A8DAC59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF5457E9-75E1-4653-8573-B8503A8DAC59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E682580D-32FC-4BD0-81AB-AC445A42C5CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E682580D-32FC-4BD0-81AB-AC445A42C5CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E682580D-32FC-4BD0-81AB-AC445A42C5CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E682580D-32FC-4BD0-81AB-AC445A42C5CB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
